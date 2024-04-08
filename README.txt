@@ -9,8 +9,4 @@ Il lavoro è suddiviso principalmente in 3 parti:
 - Implementare funzione immagin full screen (tipo carosello a tutto schermo, quindi con la possibilità di cambiare immagini)
 - Implementare Dark mode
 
-
-
-Nouha avrà il compito di supervisionare il lavoro fatto
-
 Faremo un mix tra bootstrap e css vanilla. 
