@@ -69,3 +69,8 @@ nav a {
   color: rgb(98, 98, 98);
   font-size: larger;
 }
+
+#home-img {
+  height: 75%;
+  width: 100%;
+}
