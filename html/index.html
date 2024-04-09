@@ -9,88 +9,41 @@
 </head>
 <body>
 
-<!-- IMMAGINE HOME -->
-<div class="home-img">
+  <!-- NAVBAR -->
+  <nav class="flex flex-between flex-align">
 
-  <div class="container flex flex-column flex-align">
+    <!-- LOGO -->
+    <div id="logo-img">
+      <img src="../assets/logo.png" alt="Airbnb">
+    </div>
 
-    <!-- NAVBAR -->
-    <nav class="flex flex-between flex-align">
+    <!-- TASTI NAV -->
+    <div id="nav-links" class="flex flex-around">
+      <a href="#" class="color-white">Places to stay</a>
+      <a href="#" class="color-white">Experiences</a>
+      <a href="#" class="color-white">Online Experiences</a>
+    </div>
 
-      <!-- LOGO -->
-      <div id="logo-img">
-        <img src="../assets/logo.png" alt="Airbnb">
-      </div>
-
-      <!-- TASTI NAV -->
-      <div id="nav-links" class="flex flex-around">
-        <a href="#" class="color-white">Places to stay</a>
-        <a href="#" class="color-white">Experiences</a>
-        <a href="#" class="color-white">Online Experiences</a>
-      </div>
-
-      <!-- ALTRI TASTI -->
-      <div id="nav-links-2" class="flex flex-between flex-align">
-        <a href="#" class="color-white">Become a host</a>
-        <a href="#" class="color-white">
-          <i class="bi bi-globe"></i>
+    <!-- ALTRI TASTI -->
+    <div id="nav-links-2" class="flex flex-between flex-align">
+      <a href="#" class="color-white">Become a host</a>
+      <a href="#" class="color-white">
+        <i class="bi bi-globe"></i>
+      </a>
+      <!-- HAMBURGER -->
+      <div id="burger" class="flex flex-between">
+        <a href="#">
+          <i class="bi bi-list"></i>
         </a>
-
-        <!-- HAMBURGER -->
-        <div id="burger" class="flex flex-between">
-          <a href="#">
-            <i class="bi bi-list"></i>
-          </a>
-          <a href="#">
-            <i class="bi bi-person-circle"></i>
-          </a>
-        </div>
+        <a href="#">
+          <i class="bi bi-person-circle"></i>
+        </a>
       </div>
-
-    </nav>
-
-    <!-- BARRA DI RICERCA -->
-    <div class="search flex">
-
-      <!-- DOVE -->
-      <div id="location" class="flex flex-column flex-between">
-        <label for="text"><h5>Location</h5></label>
-        <input type="text" placeholder="Where are you going?">
-      </div>
-
-      <!-- DA QUANDO -->
-      <div id="check-in" class="flex flex-column flex-between">
-        <label for="date"><h5>Check-In</h5></label>
-        <input type="date" id="date" name="date">
-      </div>
-
-      <!-- FINO A QUANDO -->
-      <div id="check-out" class="flex flex-column flex-between">
-        <label for="date"><h5>Check-Out</h5></label>
-        <input type="date" id="date" name="date">
-      </div>
-
-      <!-- OSPITI -->
-      <div id="guests" class="flex flex-column flex-between">
-        <label for="text"><h5>Guests</h5></label>
-        <input type="text" placeholder="Add guests">
-      </div>
-
-      <div id="search-btn-container" class="flex flex-justify flex-align">
-        <div id="search-btn" class="flex flex-justify flex-align">
-          <i class="bi bi-search" invalid-feedback search-icon></i>
-        </div>
-      </div>
-
     </div>
 
-    <div>
-      <h1>Go Near</h1>
-    </div>
+  </nav>
 
-  </div>
-
-</div>
+  <img src="../assets/home.jpg" alt="Home Image" id="home-img">
 
 </body>
 </html>
