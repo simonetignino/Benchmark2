@@ -75,6 +75,13 @@
     width: 100%;
   }
 
+  /*sidebar*/
+  .pink:hover {
+    border-radius: 15px;
+    background-color: #eb2f64;
+    transition: 1.4s;
+  }
+
   /*informazioni sotto alla navbar*/
   #info {
     margin-top: 40px;
@@ -103,4 +110,22 @@
     font-size: 15px;
     color: #010101;
     margin-top: 28px;
+  }
+
+  .main-info {
+    margin-left: 150px;
+  }
+  
+  .main-container {
+    margin: 6px 180px;
+  }
+  
+  main p {
+    font-size: 15px;
+    color: #010101;
+    margin: 0;
+  }
+  
+  .star-color {
+    color: #ff3459;
   }
