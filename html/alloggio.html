@@ -9,10 +9,10 @@
 </head>
 <body>
     <header>
-
+        
     </header>
 
-    <main class="container d-flex justify-content-center ">
+    <main class="container d-flex justify-content-center">
         <!-- div che conterrà la parte superiore dell'articolo, con immagini e titolo -->
         <div class="preview">
             <!-- div che conterrà il titolo e il rating (+ pulsante share e save) -->
@@ -22,7 +22,7 @@
                 </div>
                 <div class="ratings-and-buttons d-flex justify-content-between ">
                     <div class="ratings">
-                        <p>4, 6 ratings • Inverness</p>
+                        <p><b>4</b>, 6 ratings • Inverness</p>
                     </div>
                     <div class="buttons">
                         <i class="fa-solid fa-arrow-up-from-bracket"></i>
@@ -47,69 +47,76 @@
                 </div>
             </div>
             <!-- sezione info dell'alloggio -->
-            <div class="info-alloggio">
-                <h3 class="mt-4">House - Host: Erica</h3>
-                <p>3 rooms • Perfect place to visit the Loch Ness and go looking for Nessie.</p>
-                <p>Show host details</p>
-                <!-- sezione con tutte le caratteristiche -->
-                <div class="specifiche-alloggio d-flex flex-column ">
+            <div class="main2">
+                <div class="info-alloggio">
+                    <h5 class="mt-4">House - Host: Erica</h5>
+                    <p class="mb-0 mt-3">3 rooms • Perfect place to visit the Loch Ness and go looking for Nessie.</p>
+                    <p><a href="" class="text-decoration-none text-dark fw-bold ">Show host details</a></p>
+                    <!-- sezione con tutte le caratteristiche -->
+                    <div class="specifiche-alloggio d-flex flex-column ">
+                        <div class="specifica d-flex  align-items-center mt-5">
+                            <div class="logo-specifica">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="desc-specifica mx-4">
+                                <h5>House</h5>
+                                <p class="mb-0 mt-3">You will have the whole premise for you.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div class="specifica d-flex  align-items-center mt-5">
                         <div class="logo-specifica">
-                            <i class="fa-solid fa-house"></i>
+                            <i class="fa-solid fa-hand-sparkles"></i>
                         </div>
                         <div class="desc-specifica mx-4">
-                            <h4>House</h4>
-                            <p class="mb-0 ">You will have the whole premise for you.</p>
+                            <h5>Advanced Cleaning Methods</h5>
+                            <p class="mb-0 mt-3">The host is committing to our 5-step cleaning process.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Inverness</h5>
+                            <p class="mb-0 mt-3">5 Kilmore Rd.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Cencellation Terms And Fees</h5>
+                            <p class="mb-0 mt-3">Add your travel dates to know details about cancellation fees and terms.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Rules Of The House</h5>
+                            <p class="mb-0 mt-3">It's forbidden to host parties, bring animals and smoke.</p>
                         </div>
                     </div>
                 </div>
-                <div class="specifica d-flex  align-items-center mt-5">
-                    <div class="logo-specifica">
-                        <i class="fa-solid fa-hand-sparkles"></i>
-                    </div>
-                    <div class="desc-specifica mx-4">
-                        <h4>Advanced Cleaning Methods</h4>
-                        <p class="mb-0 ">The host is committing to our 5-step cleaning process.</p>
-                    </div>
-                </div>
-                <div class="specifica d-flex  align-items-center mt-5">
-                    <div class="logo-specifica">
-                        <i class="fa-solid fa-location-dot"></i>
-                    </div>
-                    <div class="desc-specifica mx-4">
-                        <h4>Inverness</h4>
-                        <p class="mb-0 ">5 Kilmore Rd.</p>
-                    </div>
-                </div>
-                <div class="specifica d-flex  align-items-center mt-5">
-                    <div class="logo-specifica">
-                        <i class="fa-solid fa-calendar-days"></i>
-                    </div>
-                    <div class="desc-specifica mx-4">
-                        <h4>Cencellation Terms And Fees</h4>
-                        <p class="mb-0 ">Add your travel dates to know details about cancellation fees and terms.</p>
-                    </div>
-                </div>
-                <div class="specifica d-flex  align-items-center mt-5">
-                    <div class="logo-specifica">
-                        <i class="fa-solid fa-book-open"></i>
-                    </div>
-                    <div class="desc-specifica mx-4">
-                        <h4>Rules Of The House</h4>
-                        <p class="mb-0 ">It's forbidden to host parties, bring animals and smoke.</p>
-                    </div>
+                <!-- div per prenotare la stanza -->
+                <div class="prenota">
+                    
                 </div>
             </div>
+            
             <!-- sezione per lasciare una recensione -->
             <div class="form-review mt-5 pt-5">
                 <div class="mb-3 d-flex justify-content-between ">
                     <div>
-                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                        <label for="exampleFormControlInput1" class="form-label name">Name</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
                     </div>
                     <div>
-                        <label for="exampleFormControlInput1" class="form-label">Rating</label>
-                        <select class="form-control" id="exampleFormControlInput1" placeholder="★">
+                        <label for="exampleFormControlInput2" class="form-label">Rating</label>
+                        <select class="form-control" id="exampleFormControlInput2" placeholder="★">
                         <option value="★">★</option>
                         <option value="★★">★★</option>
                         <option value="★★★">★★★</option>
@@ -125,19 +132,33 @@
                   </div>
             </div>
             <!-- sezione con le recensioni -->
-            <div class="reviews">
+            <div class="reviews d-flex ">
                 <div class="review">
                     <div class="info-review d-flex">
                         <div class="profile-img">
                             <img src="/assets/propic.png" alt="">
                         </div>
-                        <div class="profile-info">
-                            <p class="my-0 ">Noemi</p>
+                        <div class="profile-info mx-2 ">
+                            <p class="my-0 "><b>Noemi</b></p>
                             <p>Jan 2021</p>
                         </div>
                     </div>
                     <div class="review-written">
                         <p>Contrary to other reviews, I was cold and couldn't figure out how to turn on the heating... Otherwise amazing house.</p>
+                    </div>
+                </div>
+                <div class="review">
+                    <div class="info-review d-flex">
+                        <div class="profile-img">
+                            <img src="/assets/propic.png" alt="">
+                        </div>
+                        <div class="profile-info mx-2">
+                            <p class="my-0 "><b>Enrico</b></p>
+                            <p>Jan 2021</p>
+                        </div>
+                    </div>
+                    <div class="review-written">
+                        <p>Amazing place. I've been here with my daughter to take pictures and we were not disappointed!</p>
                     </div>
                 </div>
             </div>
