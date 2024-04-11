@@ -109,17 +109,17 @@
                 </div>
             </div>
             <!-- div che conterrà le immagini -->
-            <div class="images d-flex justify-content-center img-fluid ">
+            <div class="images d-flex flex-column justify-content-center img-fluid flex-lg-row">
                 <!-- div con la prima immagine grane -->
                 <div class="big-img" style="background-image: url(/assets/1.webp);">
                 </div>
                 <!-- div con altri 4 div con immagini più piccole -->
-                <div class="collection">
-                    <div class="sup d-flex ">
+                <div class="collection d-flex flex-row flex-lg-column ">
+                    <div class="sup d-flex flex-row flex-lg-row">
                         <div class="image" style="background-image: url(/assets/2.webp);"></div>
                         <div class="image" style="background-image: url(/assets/3.webp);"></div>
                     </div>
-                    <div class="inf d-flex ">
+                    <div class="inf d-flex flex-row flex-lg-row">
                         <div class="image" style="background-image: url(/assets/4.webp);"></div>
                         <div class="image" style="background-image: url(/assets/5.webp);"></div>
                     </div>
@@ -217,9 +217,9 @@
             <!-- sezione per lasciare una recensione -->
             <div class="form-review mt-5 pt-5">
                 <div class="mb-3 d-flex justify-content-between ">
-                    <div>
+                    <div class="w-100 ">
                         <label for="exampleFormControlInput1" class="form-label name">Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter name">
+                        <input type="email" class="form-control w-100" id="exampleFormControlInput1" placeholder="Enter name">
                     </div>
                     <div>
                         <label for="exampleFormControlInput2" class="form-label">Rating</label>

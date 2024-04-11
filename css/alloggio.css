@@ -98,9 +98,11 @@
 
 .big-img {
     width: 50%;
-    height: calc(100% + 10px);
+    height: 100%;
     background-size: cover;
     margin: 5px;
+    margin-left: 0;
+    background-position: center;
 }
 
 .collection {
@@ -124,19 +126,20 @@
     height: 100%;
     background-size: cover;
     margin: 5px;
+    background-position: center;
 }
 
 .profile-img img {
     width: 50px;
 }
 
-#exampleFormControlInput1 {
-    padding: 5px 450px;
-}
+/* #exampleFormControlInput1 {
+    width: 100%;
+} */
 
-#exampleFormControlInput2 {
+/* #exampleFormControlInput2 {
     padding: 5px 50px;
-}
+} */
 
 p, label, input {
     color: #696969;
@@ -175,3 +178,4 @@ p, label, input {
 .color {
     color: #ff395c;
 }
+
