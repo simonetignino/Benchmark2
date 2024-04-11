@@ -98,10 +98,9 @@
 
 .big-img {
     width: 50%;
-    height: 100%;
+    height: calc(100% + 10px);
     background-size: cover;
     margin: 5px;
-    margin-top: 10px;
 }
 
 .collection {
