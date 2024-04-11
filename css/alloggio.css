@@ -69,10 +69,29 @@ p, label, input {
     border-radius: 15px;
     top: 10px;
     margin-left: 100px;
+    margin-top: 100px;
 }
 
 .titolo {
     width: 120px;
-    margin-left: 10px;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.parte-superiore {
+    margin-right: 20px;
+}
+
+.parte-inferiore {
+    width: 100%;
+}
+
+.btn-cancel {
+    background-color: #ff395c;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.color {
+    color: #ff395c;
 }

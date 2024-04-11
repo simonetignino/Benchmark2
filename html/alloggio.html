@@ -107,23 +107,30 @@
                 </div>
                 <!-- div per prenotare la stanza -->
                 <div class="prenota position-sticky border-1 shadow ">
-                    <div class="parte-superiore d-flex justify-content-between ">
+                    <div class="parte-superiore d-flex justify-content-between align-items-center">
                         <div class="titolo">
                             <p>Add dates to see the prices</p>
                         </div>
-                        <div class="stars">
-                            <p class="m-0 ">★</p>
+                        <div class="stars d-flex">
+                            <p class="m-0 mx-2 color">★</p>
                             <p class="m-0 ">4.0,6 reviews</p>
                         </div>
                     </div>
-                    <div class="parte-inferiore">
-                        <div class="calendar border-1 text-center ">
-                            <input type="date">
-                            <input type="date">
+                    <div class="parte-inferiore d-flex flex-column">
+                        <div class="calendar text-center d-flex justify-content-center">
+                            <div class="border-1 ">
+                                <input class="border-1" type="date">
+                            </div>
+                            <div class="full-width">
+                                <input class="border-1" type="date">
+                            </div>
                         </div>
                         <div class="guest text-center ">
-                            <input type="text">
+                            <input class="border-1 px-5" type="text">
                         </div>
+                        <button class="btn-cancel mx-5 mt-2 p-2">
+                            Cancel Booking
+                        </button>
                     </div>
                     
                 </div>
