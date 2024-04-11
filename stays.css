@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* colore utile: #ff565b */
+
+/* FLEXBOX */
+.flex {
+  display: flex;
+}
+
+.flex-between {
+  justify-content: space-between;
+}
+
+.flex-around {
+  justify-content: space-around;
+}
+
+.flex-align {
+  align-items: center;
+}
+
+/* UTILITIES */
+.color-white {
+  color: #000000;
+}
+
+/* IMPOSTAZIONI PAGINA */
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  background-color: transparent;
+  height: 75px;
+  padding: 10px 10%;
+}
+
+#logo-img,
+#logo-img img {
+  height: 100%;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+#nav-links {
+  width: 35%;
+}
+
+#nav-links-2 {
+  width: 15%;
+}
+
+#burger {
+  background-color: white;
+  border-radius: 50px;
+  width: 25%;
+  padding: 5px;
+}
+
+#burger a {
+  color: rgb(98, 98, 98);
+  font-size: larger;
+}
+
+#home-img {
+  height: 75%;
+  width: 100%;
+}
+
+/*informazioni sotto alla navbar*/
+#info {
+  margin-top: 40px;
+  margin-left: 150px;
+}
+
+#info h5 {
+  font-size: 7px;
+  color: #6d6a6a;
+}
+
+#info h1 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+#plus {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #e41d56;
+  color: #ffffff;
+}
+
+#info p {
+  font-size: 15px;
+  color: #010101;
+  margin-top: 28px;
+}
+
+.main-info {
+  margin-left: 150px;
+}
+
+.main-container {
+  margin: 6px 180px;
+}
+
+.main-img {
+  width: 216px;
+  height: 147px;
+}
+
+main p {
+  font-size: 15px;
+  color: #010101;
+  margin: 0;
+}
+
+.main-row {
+  margin-bottom: 160px;;
+}
+
+.star-color {
+  color: #ff3459;
+}
