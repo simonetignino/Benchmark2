@@ -6,88 +6,54 @@
 
 /* nav bar */
 
-.flex {
-    display: flex;
-  }
-  
-  .flex-between {
-    justify-content: space-between;
-  }
-  
-  .flex-around {
-    justify-content: space-around;
-  }
-  
-  .flex-align {
-    align-items: center;
-  }
-  
-  /* UTILITIES */
-  .color-white {
-    color: #000000;
-  }
-  
-  /* IMPOSTAZIONI PAGINA */
-  body {
-    height: 100vh;
-    width: 100vw;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  nav {
-    background-color: transparent;
-    height: 75px;
-    padding: 10px 10%;
-  }
-  
-  #logo-img,
-  #logo-img img {
-    height: 100%;
-  }
-  
-  nav a {
-    text-decoration: none;
-  }
-  
-  #nav-links {
-    width: 35%;
-  }
-  
-  #nav-links-2 {
-    width: 15%;
-  }
-  
-  #burger {
-    background-color: white;
-    border-radius: 50px;
-    width: 25%;
-    padding: 5px;
-  }
-  
-  #burger a {
-    color: rgb(98, 98, 98);
-    font-size: larger;
-  }
-  
-  #home-img {
-    height: 75%;
-    width: 100%;
-  }
+/* NAVBAR */
+#logo {
+  width: 30%;
+}
 
-  /*sidebar*/
-  .pink:hover {
-    border-radius: 15px;
-    background-color: #eb2f64;
-    transition: 1.4s;
-  }
+/* Links */
+#nav-links,
+.bi-search,
+h1 {
+  color: white;
+}
+
+#nav-links,
+#burger-links {
+  text-decoration: none;
+}
+
+/* Burger button */
+#burger {
+  width: 12%;
+  height: 45%;
+}
+
+#burger,
+#search-bar {
+  background-color: white;
+}
+
+#burger,
+#search-bar,
+#search-btn {
+  border-radius: 50px;
+}
+
+#burger-links {
+  color: black;
+}
+
+/* BARRA DI RICERCA */
+#search-bar {
+  width: 50%;
+  height: 100%;
+}
 
 .container {
     max-width: 1175px;
 }
 
-.info {
-    width: 100%;
-}
 
 /* container immagini */
 
@@ -151,7 +117,6 @@ p, label, input {
     width: 350px;
     border-radius: 15px;
     top: 10px;
-    margin-left: 100px;
     margin-top: 100px;
 }
 
@@ -179,3 +144,28 @@ p, label, input {
     color: #ff395c;
 }
 
+@media screen and (max-width: 991px) {
+  .collection {
+    width: 100%;
+    height: 100px;
+  }
+
+  .images {
+    height: 350px;
+  }
+  .big-img {
+    width: 100%;
+    height: 100%;
+  }
+  .image {
+    height: 100%;
+  }
+  .sup {
+    height: 100%;
+  }
+  .inf {
+    height: 100%;
+  }
+
+  
+}

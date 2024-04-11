@@ -1,0 +1,25 @@
+/* body {
+  background-color: #252525;
+  color: white;
+} */
+
+#second-page-container {
+  height: 50vh;
+}
+
+#second-page-container .row .col {
+  border: 1px solid blueviolet;
+}
+
+.stages-img {
+  border: 1px solid red;
+  border-radius: 12px;
+  height: 75px;
+  width: 75px;
+}
+
+.stages-name,
+.stages-info {
+  border: 1px solid royalblue;
+  width: 100%;
+}
