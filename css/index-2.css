@@ -1,0 +1,34 @@
+.stages-img {
+  border-radius: 12px;
+  height: 75px;
+  width: 75px;
+}
+
+.beach-img,
+.lake-img,
+.mountain-img,
+.sky-img {
+  background-size: contain;
+  background-position: center;
+}
+
+.beach-img {
+  background-image: url("../assets/beach-icon.jpg");
+}
+
+.lake-img {
+  background-image: url("../assets/lake-icon.png");
+}
+
+.mountain-img {
+  background-image: url("../assets/mountain-icon.png");
+}
+
+.sky-img {
+  background-image: url("../assets/sky-icon.png");
+}
+
+.stages-name,
+.stages-info {
+  width: 100%;
+}
