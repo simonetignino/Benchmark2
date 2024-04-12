@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/stays.css">
+    <title>Second page</title>
+</head>
+<body>
+     <!-- NAVBAR -->
+  <nav class="flex flex-between flex-align mx-lg-0 mx-md-3 mx-sm-3">
+    <!-- LOGO -->
+    <div id="logo-img">
+      <img src="../assets/logo-pink.png" alt="Airbnb">
+    </div>
+    <!-- ALTRI TASTI -->
+    <div id="nav-links-2" class="flex flex-between flex-align">
+      <a href="#" class="color-white text-nowrap m-4">Become a host</a>
+      <a href="#" class="color-white">
+        <i class="bi bi-globe"></i>
+      </a>
+      <!-- HAMBURGER -->
+      <div id="burger" class="flex flex-between m-2">
+        <a href="#">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <i class="bi bi-list m-1"></i>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" aria-modal="true" role="dialog">
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="nav nav-pills flex-column mb-auto">
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis" aria-current="page">
+                          <i class="bi bi-house-heart"></i>
+                          Home
+                        </a>
+                      </li>
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis">
+                          <i class="bi bi-bookmark"></i>
+                          Saved Trips
+                        </a>
+                      </li>
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis">
+                          <i class="bi bi-envelope"></i>
+                          Messages
+                        </a>
+                      </li>
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis">
+                          <i class="bi bi-gear"></i>
+                          Account Settings
+                        </a>
+                      </li>
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis">
+                          <i class="bi bi-question-circle"></i>
+                          Help Center
+                        </a>
+                      </li>
+                      <li class="pink">
+                        <a href="#" class="nav-link link-body-emphasis">
+                          <i class="bi bi-box-arrow-right"></i>
+                          Log Out
+                        </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+        </a>
+        <a href="#">
+          <i class="bi bi-person-circle m-1"></i>
+        </a>
+      </div>
+    </div>
+  </nav>
+  <div id="info">
+    <h6>10 days</h6>
+    <div class="d-flex align-items-center">
+        <h1>Stays in Genova</h1>
+        <div id="plus" class="d-flex justify-content-center align-items-center ms-2"><i class="bi bi-plus"></i></div>
+    </div>
+    <div class="mt-2">
+        <button type="button" class="btn btn-outline-secondary rounded-pill me-1">Available houses</button>
+        <button type="button" class="btn btn-outline-secondary rounded-pill me-1">Booked houses</button>
+        <button type="button" class="btn btn-outline-secondary rounded-pill me-1">All houses</button>
+      </div>
+      <p>Enter dates and number of guests to see the total price per night.</p>
+  </div>
+
+  <!--main-->
+  <main>
+    <p class="main-info">Review COVID-19 travel restrictions before you book. Learn more</p>
+    <div class="album pb-5 mt-3">
+      <div class="main-container">
+        <!--Prima riga-->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 main-row">
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/1.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                <span class="fw-bold ms-2">2.75</span> · 4 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">The windy house</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/2.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">Wonderful House</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/3.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">The time travel</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/4.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">S.Olcese dream</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/5.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">Bassi student residence</p>
+            </div>
+          </div>
+        </div>
+        <!--Seconda riga-->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/1.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                <span class="fw-bold ms-2">2.75</span> · 4 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">The windy house</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/2.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">Wonderful House</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/3.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">The time travel</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/4.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">S.Olcese dream</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border-0">
+              <img class="rounded main-img" src="../assets/5.webp" alt="">
+              <small>
+                <i class="bi bi-star-fill star-color"></i>
+                0 ratings
+              </small>
+              <p class="opacity-75">Apartment · Genova</p>
+              <p class="opacity-75">Bassi student residence</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <section class="border-bottom">
+    <div class="ms-5">
+        <h4 class="mb-4 ms-3">Inspiration for future getaways</h4>
+        <ul class="list-unstyled d-flex mb-4">
+            <li class="ms-3 mx-2"><a class="text-body-emphasis text-decoration-none bordo" href="#popular">Popular</a></li>
+            <li class="ms-3 mx-2"><a class="text-body-emphasis text-decoration-none bordo" href="#popular">Historic</a></li>
+            <li class="ms-3 mx-2"><a class="text-body-emphasis text-decoration-none bordo" href="#popular">Islands</a></li>
+            <li class="ms-3 mx-2"><a class="text-body-emphasis text-decoration-none bordo text-nowrap" href="#popular">Unique stays</a></li>
+            <li class="ms-3 mx-2"><a class="text-body-emphasis text-decoration-none bordo text-nowrap" href="#popular">Things to do</a></li>
+        </ul>
+    </div>
+    <div class="row ms-5 mt-3 mb-3">
+        <div class="col">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Amsterdam <p class="text-body-secondary">Cottage Rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Aberfeldy <p class="text-body-secondary">Holiday rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Bristol <p class="text-body-secondary">Cabin rentals</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Athens <p class="text-body-secondary">Villa Rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Birmingham <p class="text-body-secondary">House rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Cambridge <p class="text-body-secondary">House rentals</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Aviemore <p class="text-body-secondary">Holiday Rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Bordeaux <p class="text-body-secondary">Holiday rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Chamonix <p class="text-body-secondary">House rentals</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Barcelona <p class="text-body-secondary">Flat Rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Brecon <p class="text-body-secondary">Cabin rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Cheddar <p class="text-body-secondary">Cabin rentals</p></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col">
+            <ul class="list-unstyled d-flex flex-column">
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Bakewell <p class="text-body-secondary">Cottage Rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis text-decoration-none" href="#popular">Bourton-on-the-Water <p class="text-body-secondary">Holiday rentals</p></a>
+                </li>
+                <li class="ms-3">
+                    <a class="text-body-emphasis" href="#popular">Show more <i class="bi bi-caret-down-fill"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+  </section>
+  <div class="container">
+    <footer class="d-flex flex-column mt-4">
+      <div class="row d-flex justify-content-between">
+        <div class="col-4 col-md-2 mb-2 stile-link-footer">
+          <h5>Support</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help Center</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">AirCover</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anti-discrimination</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Disability support</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cancellation options</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Report neighborhood concern</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-4 col-md-2 mb-2 stile-link-footer">
+          <h5>Hosting</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb your home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">AirCover for Hosts</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hosting resources</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Community forum</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hosting responsibly</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb-friendly apartments</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Join a free Hosting class</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-4 col-md-2 mb-2 stile-link-footer">
+          <h5>Airbnb</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Newsroom</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">New features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investors</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift cards</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb.org emergency stays</a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="footerone" class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+        <p>© 2024 Airbnb, Inc.</p>
+        <ul class="list-unstyled d-flex">
+          <li class="ms-3">
+            <a href="#" class="link-body-emphasis" data-bs-toggle="modal" data-bs-target="#languageModal">
+              <i class="bi bi-translate"></i> English (UK)
+            </a>
+          </li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+          <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+  <!-- Modal -->
+<div class="modal fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="languageModalLabel">Select your language</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <!-- Categorie -->
+          <div class="col modale-custom">
+            <h6 class="text-primary custom-h6 text-black">Suggested languages and regions</h6>
+            <hr>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-center row mx-3 p-3">
+              <li class="list-group-item col">
+                <strong>Inglese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Stati Uniti</li>
+                  <li>Regno Unito</li>
+                </ul>
+              </li>
+              <li class="list-group-item col">
+                <strong>Spagnolo</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Spagna</li>
+                  <li>Messico</li>
+                </ul>
+              </li>
+              <li class="list-group-item col">
+                <strong>Cinese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Cina</li>
+                  <li>Taiwan</li>
+                </ul>
+              </li>
+              <li class="list-group-item col">
+                <strong>Hindi</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>India</li>
+                </ul>
+              </li>
+              <li class="list-group-item col">
+                <strong>Francese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Francia</li>
+                  <li>Canada</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="row">
+           <div class="col modale-custom">
+             <h6 class="text-primary custom-h6 text-black">Choose a language and region</h6>
+             <hr>
+             <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+              <li class="list-group-item col my-2">
+                <strong>Italiano</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Italia</li>
+                  <li>Svizzera</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Francese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Francia</li>
+                  <li>Belgio</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Tedesco</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Germania</li>
+                  <li>Austria</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Spagnolo</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Spagna</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Olandese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Paesi Bassi</li>
+                  <li>Belgio</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+              <li class="list-group-item col my-2">
+                <strong>Portoghese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Portogallo</li>
+                  <li>Brasile</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Russo</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Russia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Svedese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Svezia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Polacco</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Polonia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Arabo</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Egitto</li>
+                  <li>Arabia Saudita</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+              <li class="list-group-item col my-2">
+                <strong>Bengalese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Bangladesh</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Giapponese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Giappone</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Coreano</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Corea del Sud</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Tailandese</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Tailandia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Tagalog</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Filippine</li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+              <li class="list-group-item col my-2">
+                <strong>Urdu</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Pakistan</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Swahili</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Kenya</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Malesiano</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Malaysia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Indonesiano</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Indonesia</li>
+                </ul>
+              </li>
+              <li class="list-group-item col my-2">
+                <strong>Vietnamita</strong>
+                <ul class="list-unstyled text-muted">
+                  <li>Vietnam</li>
+                </ul>
+              </li>
+            </ul>
+           </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

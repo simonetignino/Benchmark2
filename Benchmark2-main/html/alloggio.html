@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/css/alloggio.css">
+    <title>Blarmor home</title>
+</head>
+
+<body>
+    <header class="container">
+        <!-- NAVBAR -->
+        <div class="row">
+
+            <!-- Logo -->
+            <div class="col py-sm-1">
+                <img src="/assets/logo-pink.png" alt="Logo" id="logo">
+            </div>
+
+            <!-- Nav links -->
+            <div class="col d-none d-lg-block">
+                <div class="justify-content-around align-items-center h-100 w-100 d-none">
+                    <a href="#" id="nav-links">Places to stay</a>
+                    <a href="#" id="nav-links">Experiences</a>
+                    <a href="#" id="nav-links">Online Experiences</a>
+                </div>
+            </div>
+
+            <!-- Nav links 2 -->
+            <div class="col d-flex justify-content-end align-items-center">
+
+                <div class="d-none d-xxl-block">
+                    <a href="#" id="nav-links" class="px-2 fs-6">Become a host</a>
+                </div>
+                <a href="#" id="nav-links" class="px-2">
+                    <i class="bi bi-globe"></i>
+                </a>
+
+                <!-- Hamburger -->
+                <div id="burger" class="d-flex justify-content-around align-items-center px-sm-4">
+                    <a href="#">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                            <i class="bi bi-list m-1"></i>
+                        </button>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel" aria-modal="true" role="dialog">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="nav nav-pills flex-column mb-auto">
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis" aria-current="page">
+                                        <i class="bi bi-house-heart"></i>
+                                        Home
+                                      </a>
+                                    </li>
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis">
+                                        <i class="bi bi-bookmark"></i>
+                                        Saved Trips
+                                      </a>
+                                    </li>
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis">
+                                        <i class="bi bi-envelope"></i>
+                                        Messages
+                                      </a>
+                                    </li>
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis">
+                                        <i class="bi bi-gear"></i>
+                                        Account Settings
+                                      </a>
+                                    </li>
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis">
+                                        <i class="bi bi-question-circle"></i>
+                                        Help Center
+                                      </a>
+                                    </li>
+                                    <li class="pink">
+                                      <a href="#" class="nav-link link-body-emphasis">
+                                        <i class="bi bi-box-arrow-right"></i>
+                                        Log Out
+                                      </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#">
+                    <i class="bi bi-person-circle m-1"></i>
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+    </header>
+
+    <main class="container d-flex justify-content-center">
+        <!-- div che conterrà la parte superiore dell'articolo, con immagini e titolo -->
+        <div class="preview">
+            <!-- div che conterrà il titolo e il rating (+ pulsante share e save) -->
+            <div class="info">
+                <div class="title">
+                    <h3 class="mt-3">Blarmor home</h3>
+                </div>
+                <div class="ratings-and-buttons d-flex justify-content-between ">
+                    <div class="ratings">
+                        <p><b>4</b>, 6 ratings • Inverness</p>
+                    </div>
+                    <div class="buttons">
+                        <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+            </div>
+            <!-- div che conterrà le immagini -->
+            <div class="images d-flex flex-column justify-content-center img-fluid flex-lg-row">
+                <!-- div con la prima immagine grane -->
+                <div class="big-img" style="background-image: url(/assets/1.webp);">
+                </div>
+                <!-- div con altri 4 div con immagini più piccole -->
+                <div class="collection d-flex flex-row flex-lg-column ">
+                    <div class="sup d-flex flex-row flex-lg-row">
+                        <div class="image" style="background-image: url(/assets/2.webp);"></div>
+                        <div class="image" style="background-image: url(/assets/3.webp);"></div>
+                    </div>
+                    <div class="inf d-flex flex-row flex-lg-row">
+                        <div class="image" style="background-image: url(/assets/4.webp);"></div>
+                        <div class="image" style="background-image: url(/assets/5.webp);"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- sezione info dell'alloggio -->
+            <div class="main d-flex flex-column flex-lg-row ">
+                <div class="info-alloggio d-flex flex-column ">
+                    <h5 class="mt-4">House - Host: Erica</h5>
+                    <p class="mb-0 mt-3">3 rooms • Perfect place to visit the Loch Ness and go looking for Nessie.</p>
+                    <p><a href="" class="text-decoration-none text-dark fw-bold ">Show host details</a></p>
+                    <!-- sezione con tutte le caratteristiche -->
+                    <div class="specifiche-alloggio d-flex flex-column ">
+                        <div class="specifica d-flex  align-items-center mt-5">
+                            <div class="logo-specifica">
+                                <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="desc-specifica mx-4">
+                                <h5>House</h5>
+                                <p class="mb-0 mt-3">You will have the whole premise for you.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-hand-sparkles"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Advanced Cleaning Methods</h5>
+                            <p class="mb-0 mt-3">The host is committing to our 5-step cleaning process.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Inverness</h5>
+                            <p class="mb-0 mt-3">5 Kilmore Rd.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Cencellation Terms And Fees</h5>
+                            <p class="mb-0 mt-3">Add your travel dates to know details about cancellation fees and
+                                terms.</p>
+                        </div>
+                    </div>
+                    <div class="specifica d-flex  align-items-center mt-5">
+                        <div class="logo-specifica">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <div class="desc-specifica mx-4">
+                            <h5>Rules Of The House</h5>
+                            <p class="mb-0 mt-3">It's forbidden to host parties, bring animals and smoke.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- div per prenotare la stanza -->
+                <div class="d-flex justify-content-center m-lg-5 ">
+                    <div class="prenota position-sticky border-1 shadow">
+                        <div class="parte-superiore d-flex justify-content-between align-items-center">
+                            <div class="titolo">
+                                <p>Add dates to see the prices</p>
+                            </div>
+                            <div class="stars d-flex">
+                                <p class="m-0 mx-2 color">★</p>
+                                <p class="m-0 ">4.0,6 reviews</p>
+                            </div>
+                        </div>
+                        <div class="parte-inferiore d-flex flex-column">
+                            <div class="calendar d-flex justify-content-center">
+                                <div class="border-1 ">
+                                    <input class="border-1" type="date">
+                                </div>
+                                <div class="full-width">
+                                    <input class="border-1" type="date">
+                                </div>
+                            </div>
+                            <div class="guest text-center ">
+                                <input class="border-1 px-5" type="text">
+                            </div>
+                            <button class="btn-cancel mx-5 mt-2 p-2">
+                                Cancel Booking
+                            </button>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+
+
+
+            <!-- sezione per lasciare una recensione -->
+            <div class="form-review mt-5 pt-5">
+                <div class="mb-3 d-flex justify-content-between ">
+                    <div class="w-100 ">
+                        <label for="exampleFormControlInput1" class="form-label name">Name</label>
+                        <input type="email" class="form-control w-100" id="exampleFormControlInput1"
+                            placeholder="Enter name">
+                    </div>
+                    <div>
+                        <label for="exampleFormControlInput2" class="form-label">Rating</label>
+                        <select class="form-control" id="exampleFormControlInput2" placeholder="★">
+                            <option value="★">★</option>
+                            <option value="★★">★★</option>
+                            <option value="★★★">★★★</option>
+                            <option value="★★★★">★★★★</option>
+                            <option value="★★★★★">★★★★★</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Review</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="Type in your review"></textarea>
+                </div>
+            </div>
+            <!-- sezione con le recensioni -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="review">
+                            <div class="info-review d-flex">
+                                <div class="profile-img">
+                                    <img src="/assets/propic.png" alt="">
+                                </div>
+                                <div class="profile-info mx-2 ">
+                                    <h6 class="my-0 ">Noemi</h6>
+                                    <p>Jan 2021</p>
+                                </div>
+                            </div>
+                            <div class="review-written">
+                                <p>Contrary to other reviews, I was cold and couldn't figure out how to turn on the
+                                    heating...
+                                    Otherwise amazing house.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="review">
+                            <div class="info-review d-flex">
+                                <div class="profile-img">
+                                    <img src="/assets/propic.png" alt="">
+                                </div>
+                                <div class="profile-info mx-2">
+                                    <h6 class="my-0 ">Enrico</h6>
+                                    <p>Jan 2021</p>
+                                </div>
+                            </div>
+                            <div class="review-written">
+                                <p>Amazing place. I've been here with my daughter to take pictures and we were not disappointed!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <footer class="d-flex flex-column mt-4">
+                  <div class="row d-flex justify-content-between">
+                    <div class="col-4 col-md-2 mb-2 stile-link-footer">
+                      <h5>Support</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help Center</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">AirCover</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Anti-discrimination</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Disability support</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Cancellation options</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Report neighborhood concern</a></li>
+                      </ul>
+                    </div>
+              
+                    <div class="col-4 col-md-2 mb-2 stile-link-footer">
+                      <h5>Hosting</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb your home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">AirCover for Hosts</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hosting resources</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Community forum</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hosting responsibly</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb-friendly apartments</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Join a free Hosting class</a></li>
+                      </ul>
+                    </div>
+              
+                    <div class="col-4 col-md-2 mb-2 stile-link-footer">
+                      <h5>Airbnb</h5>
+                      <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Newsroom</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">New features</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Careers</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investors</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift cards</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Airbnb.org emergency stays</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div id="footerone" class="d-flex flex-column flex-sm-row justify-content-between py-2 border-top">
+                    <p>© 2024 Airbnb, Inc.</p>
+                    <ul class="list-unstyled d-flex">
+                      <li class="ms-3">
+                        <a href="#" class="link-body-emphasis" data-bs-toggle="modal" data-bs-target="#languageModal">
+                            <i class="bi bi-translate"></i> English (UK)
+                        </a>
+                      </li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-facebook"></i></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-twitter"></i></a></li>
+                      <li class="ms-3"><a class="link-body-emphasis" href="#"><i class="bi bi-instagram"></i></a></li>
+                    </ul>
+                  </div>
+                </footer>
+              </div>
+            <div class="reviews d-flex">
+            </div>
+        </div>
+    </main>
+    <!-- Modal -->
+<div class="modal fade" id="languageModal" tabindex="-1" aria-labelledby="languageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="languageModalLabel">Select your language</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <!-- Categorie -->
+            <div class="col">
+              <h6 class="text-primary custom-h6 text-black">Suggested languages and regions</h6>
+              <hr>
+              <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+                <li class="list-group-item col">
+                  <strong>Inglese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Stati Uniti</li>
+                    <li>Regno Unito</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col">
+                  <strong>Spagnolo</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Spagna</li>
+                    <li>Messico</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col">
+                  <strong>Cinese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Cina</li>
+                    <li>Taiwan</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col">
+                  <strong>Hindi</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>India</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col">
+                  <strong>Francese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Francia</li>
+                    <li>Canada</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div class="row">
+             <div class="col">
+               <h6 class="text-primary custom-h6 text-black">Choose a language and region</h6>
+               <hr>
+               <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+                <li class="list-group-item col my-2">
+                  <strong>Italiano</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Italia</li>
+                    <li>Svizzera</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Francese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Francia</li>
+                    <li>Belgio</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Tedesco</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Germania</li>
+                    <li>Austria</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Spagnolo</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Spagna</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Olandese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Paesi Bassi</li>
+                    <li>Belgio</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+                <li class="list-group-item col my-2">
+                  <strong>Portoghese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Portogallo</li>
+                    <li>Brasile</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Russo</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Russia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Svedese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Svezia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Polacco</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Polonia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Arabo</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Egitto</li>
+                    <li>Arabia Saudita</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+                <li class="list-group-item col my-2">
+                  <strong>Bengalese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Bangladesh</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Giapponese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Giappone</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Coreano</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Corea del Sud</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Tailandese</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Tailandia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Tagalog</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Filippine</li>
+                  </ul>
+                </li>
+              </ul>
+              <ul class="list-unstyled d-flex flex-wrap justify-content-center align-items-baseline row mx-3 p-3">
+                <li class="list-group-item col my-2">
+                  <strong>Urdu</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Pakistan</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Swahili</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Kenya</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Malesiano</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Malaysia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Indonesiano</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Indonesia</li>
+                  </ul>
+                </li>
+                <li class="list-group-item col my-2">
+                  <strong>Vietnamita</strong>
+                  <ul class="list-unstyled text-muted">
+                    <li>Vietnam</li>
+                  </ul>
+                </li>
+              </ul>
+             </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/deaa9508d4.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

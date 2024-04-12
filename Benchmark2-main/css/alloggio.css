@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav bar */
+
+/* NAVBAR */
+#logo {
+  width: 30%;
+}
+
+/* Links */
+#nav-links,
+.bi-search,
+h1 {
+  color: white;
+}
+
+#nav-links,
+#burger-links {
+  text-decoration: none;
+}
+
+/* Burger button */
+#burger {
+  width: 12%;
+  height: 45%;
+}
+
+#burger,
+#search-bar {
+  background-color: white;
+}
+
+#burger,
+#search-bar,
+#search-btn {
+  border-radius: 50px;
+}
+
+#burger-links {
+  color: black;
+}
+
+/* BARRA DI RICERCA */
+#search-bar {
+  width: 50%;
+  height: 100%;
+}
+
+.container {
+    max-width: 1175px;
+}
+
+
+/* container immagini */
+
+.images {
+    width: 100%;
+    height: 30%;
+}
+
+.big-img {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 5px;
+    margin-left: 0;
+    background-position: center;
+}
+
+.collection {
+    width: 50%;
+    height: 100%;
+}
+
+.sup {
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.inf {
+    width: 100%;
+    height: 50%;
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    margin: 5px;
+    background-position: center;
+}
+
+.profile-img img {
+    width: 50px;
+}
+
+/* #exampleFormControlInput1 {
+    width: 100%;
+} */
+
+/* #exampleFormControlInput2 {
+    padding: 5px 50px;
+} */
+
+p, label, input {
+    color: #696969;
+    font-size: 16px;
+}
+
+.prenota {
+    height: 200px;
+    width: 350px;
+    border-radius: 15px;
+    top: 10px;
+    margin-top: 100px;
+}
+
+.titolo {
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.parte-superiore {
+    margin-right: 20px;
+}
+
+.parte-inferiore {
+    width: 100%;
+}
+
+.btn-cancel {
+    background-color: #ff395c;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+}
+.color {
+    color: #ff395c;
+}
+
+@media screen and (max-width: 991px) {
+  .collection {
+    width: 100%;
+    height: 100px;
+  }
+
+  .images {
+    height: 350px;
+  }
+  .big-img {
+    width: 100%;
+    height: 100%;
+  }
+  .image {
+    height: 100%;
+  }
+  .sup {
+    height: 100%;
+  }
+  .inf {
+    height: 100%;
+  }
+
+  
+}
+
+/* stile footer */
+
+.stile-link-footer ul li{
+  font-size: 14px;
+}
+
+.stile-link-footer h5 {
+  font-size: 17px;
+}
+
+#footerone p {
+  font-size: 13px;
+}
+
+/*sidebar*/
+.pink:hover {
+  border-radius: 15px;
+  background-color: #eb2f64;
+  transition: 1.4s;
+}
+
+/* modal stile */
+
+.list-group-item:hover {
+  background-color: #f97b92; /* Cambia il colore di sfondo al passaggio del mouse */
+  cursor: pointer;
+  border: #6d6a6a;
+}
+
+.custom-h6 {
+  color: #000000;
+  font-size: larger;
+  font-weight: bold;
+}
